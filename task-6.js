@@ -24,7 +24,7 @@ if(input===null){
     
 }
 input=Number(input);
-const notNumber=Number .isNaN(input)
+const notNumber=Number.isNaN(input);
 if(notNumber){
     alert('Ви ввели не число');
     continue;

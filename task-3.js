@@ -9,7 +9,7 @@ if(message===null){
     
 }else if(message===ADMIN_PASSWORD){
     message='Ласкаво просимо!';
-} else if(message!==ADMIN_PASSWORD){
+} else{
     message='Доступ заборонений, невірний пароль!';
 }
 alert(message);

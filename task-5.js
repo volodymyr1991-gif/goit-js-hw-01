@@ -1,8 +1,8 @@
 
-let country ;
+let country;
 let price;
 country=prompt('ведіт країну ')
-switch(country .toLowerCase()){
+switch(country.toLowerCase()){
     case 'китай':
     price=100;
         console.log(`Доставка в ${country} буде коштувати ${price} кредитів`);
@@ -30,5 +30,5 @@ switch(country .toLowerCase()){
                     console.log(`Доставка в ${country} буде коштувати ${price} кредитів`);
                     break;
 
-                    default:alert('У вашій країні доставка недоступна')
+                    default:alert('У вашій країні доставка недоступна');
 }
